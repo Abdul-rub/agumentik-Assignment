@@ -9,7 +9,7 @@ const Collaborate = () => {
       <div className={style.upper__half}>
         <div className={style.main__line1}>
           <p>
-            We collaboate with{" "}
+            We collaboate with
             <span className={style.span__clr}>
               250+ leading unversities and companies
             </span>
