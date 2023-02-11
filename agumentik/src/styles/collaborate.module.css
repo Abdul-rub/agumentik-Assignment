@@ -1,0 +1,98 @@
+.container {
+  width: 100%;
+  border: 2px solid blue;
+  height: auto;
+  margin-top: 150px;
+}
+
+.upper__half {
+  width: 100%;
+  height: auto;
+  border: 2px solid black;
+}
+
+.main__line1 {
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.span__clr {
+  color: #5459e8;
+}
+
+.cards_box {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.cards_box div {
+  width: auto;
+  height: auto;
+  border: 1px solid red;
+}
+
+.cards_box img {
+  width: 150px;
+}
+
+.lower__half {
+  width: 100%;
+  height: auto;
+  border: 2px solid black;
+}
+
+.main__line2 {
+  padding: 90px;
+  border: 2px solid red;
+}
+.h2__tag {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 40px;
+  font-weight: 600;
+  color: gray;
+}
+
+.p__tag {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.main__line2 p {
+  margin-top: 20px;
+}
+
+.div__box {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  padding-left:10px;
+  
+ 
+ 
+}
+
+.div__box div {
+    /* padding: 0 20px; */
+  width: auto;
+  height: auto;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+ 
+}
+
+.desc{
+    margin-top: 20px;
+}
+
+.learn__more{
+    margin-top: 20px;
+}
+
+hr{
+    width: 50%;
+}

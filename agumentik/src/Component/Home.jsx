@@ -1,4 +1,5 @@
 import React from 'react'
+import Collaborate from './Collaborate'
 import HeroPage from './HeroPage'
 import Navbar from './Navbar'
 
@@ -7,6 +8,7 @@ const Home = () => {
     <div>
         <Navbar/>
         <HeroPage/>
+        <Collaborate/>
     </div>
   )
 }
