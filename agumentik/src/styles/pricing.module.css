@@ -1,0 +1,52 @@
+.container{
+    width: 100%;
+
+}
+.lower__half {
+  width: 100%;
+  height: auto;
+  border: 2px solid black;
+}
+
+.main__line2 {
+  padding: 90px;
+  /* border: 2px solid red; */
+}
+.h2__tag {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 40px;
+  font-weight: 600;
+  /* border: 2px solid red; */
+  color: black;
+}
+
+.p__tag {
+  padding: 20px 0;
+  color: gray;
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid red; */
+}
+
+.togglebtn{
+    display: flex;
+    gap: 10px;
+    /* border: 2px solid red; */
+    justify-content: center;
+    padding: 30px;
+    font-size: 24px;
+}
+
+.toggle__container {
+    display: flex;
+    align-items: center;
+  }
+
+  .pricing__div{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 50px 0 50px;
+  }
+

@@ -4,6 +4,7 @@ import Courses from './Courses'
 import ExploreCourse from './ExploreCourse'
 import HeroPage from './HeroPage'
 import Navbar from './Navbar'
+import Pricing from './Pricing'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
         <Collaborate/>
         <Courses/>
         <ExploreCourse/>
+        <Pricing/>
     </div>
   )
 }
