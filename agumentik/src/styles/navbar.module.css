@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+  border: 1px solid red;
+  margin-top: 30px;
+}
+
+.logo__name {
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+}
+
+div img {
+  width: 60px;
+}
+
+.nav__items {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+}
+
+.nav__items a{
+   text-decoration: none;
+}
+
+.buttons__div {
+  display: flex;
+  gap: 20px;
+  margin-right: 90px;
+  /* border: 1px solid red; */
+  /*  */
+}
+
+.login__btn {
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: 1px solid blue;
+  color: blue;
+  background-color: white;
+  font-family: Poppins;
+  /* font-weight: 1400; */
+}
+
+.register__btn {
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: 1px solid #5459E8;
+  color: white;
+  background-color:#5459E8;
+  font-family: Poppins;
+ 
+}
