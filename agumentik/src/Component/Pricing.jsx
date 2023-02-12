@@ -1,6 +1,7 @@
 import React from "react";
 import style from "../styles/pricing.module.css";
 import { ToggleSwitch } from "../Component/Togglebtn";
+import {RiCheckboxCircleFill} from "react-icons/ri"
 
 const Pricing = () => {
   return (
@@ -25,9 +26,54 @@ const Pricing = () => {
             </div>
           </div>
           <div className={style.pricing__div}>
-             <div>hii</div>
-             <div>hiiii</div>
-             <div>dfffff</div>
+             <div className={style.pricing__div_card}>
+              <h4>Standart</h4>
+              <p>The national average cost buying coin easy</p>
+              <p className={style.price__txt}>
+                $12 <span className={style.price__month}>/month</span>
+              </p>
+              <button>Select Plan</button>
+              <div className={style.offers__avail}>
+                <p><span><RiCheckboxCircleFill color="#5459E8" size={25}/></span>50 GB cloud storage</p>
+                <p><span><RiCheckboxCircleFill color="#5459E8" size={25}/></span>50 GB cloud storage</p>
+                <p><span><RiCheckboxCircleFill color="#5459E8" size={25}/></span>50 GB cloud storage</p>
+                <p><span><RiCheckboxCircleFill color="#5459E8" size={25}/></span>50 GB cloud storage</p>
+                <p><span><RiCheckboxCircleFill color="#5459E8" size={25}/></span>50 GB cloud storage</p>
+                <p><span><RiCheckboxCircleFill color="#5459E8" size={25}/></span>50 GB cloud storage</p>
+              </div>
+             </div>
+             <div className={style.pricing__div_card}>
+              <h4>Standart</h4>
+              <p>The national average cost buying coin easy</p>
+              <p className={style.price__txt}>
+                $12 <span className={style.price__month}>/month</span>
+              </p>
+              <button>Select Plan</button>
+              <div className={style.offers__avail}>
+                <p><span><RiCheckboxCircleFill color="#5459E8" size={25}/></span>50 GB cloud storage</p>
+                <p><span><RiCheckboxCircleFill color="#5459E8" size={25}/></span>50 GB cloud storage</p>
+                <p><span><RiCheckboxCircleFill color="#5459E8" size={25}/></span>50 GB cloud storage</p>
+                <p><span><RiCheckboxCircleFill color="#5459E8" size={25}/></span>50 GB cloud storage</p>
+                <p><span><RiCheckboxCircleFill color="#5459E8" size={25}/></span>50 GB cloud storage</p>
+                <p><span><RiCheckboxCircleFill color="#5459E8" size={25}/></span>50 GB cloud storage</p>
+              </div>
+             </div>
+             <div className={style.pricing__div_card}>
+              <h4>Standart</h4>
+              <p>The national average cost buying coin easy</p>
+              <p className={style.price__txt}>
+                $12 <span className={style.price__month}>/month</span>
+              </p>
+              <button>Select Plan</button>
+              <div className={style.offers__avail}>
+                <p><span><RiCheckboxCircleFill color="#5459E8" size={25}/></span>50 GB cloud storage</p>
+                <p><span><RiCheckboxCircleFill color="#5459E8" size={25}/></span>50 GB cloud storage</p>
+                <p><span><RiCheckboxCircleFill color="#5459E8" size={25}/></span>50 GB cloud storage</p>
+                <p><span><RiCheckboxCircleFill color="#5459E8" size={25}/></span>50 GB cloud storage</p>
+                <p><span><RiCheckboxCircleFill color="#5459E8" size={25}/></span>50 GB cloud storage</p>
+                <p><span><RiCheckboxCircleFill color="#5459E8" size={25}/></span>50 GB cloud storage</p>
+              </div>
+             </div>
           </div>
         </div>
       </div>

@@ -1,55 +1,43 @@
-.container{
-    width: 100%;
-
-}
 .lower__half {
   width: 100%;
   height: auto;
   border: 2px solid black;
+  padding: 20px; /* reduce padding to make it more compact */
 }
 
 .main__line2 {
-  padding: 90px;
+  padding: 30px;
   border: 2px solid red;
 }
+
 .h2__tag {
-  display: flex;
+  font-size: 30px; /* reduce font size for smaller screens */
+}
+
+.grid__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* use auto-fit and minmax to create a responsive grid */
+  grid-gap: 20px;
+}
+
+.icon_content {
+  flex-direction: column; /* stack the icon and text vertically */
+  align-items: center;
   justify-content: center;
-  align-items: flex-start;
-  font-size: 40px;
-  font-weight: 600;
-  color: black;
+  text-align: center;
+  padding: 20px;
 }
 
-.p__tag {
-  padding: 20px 0;
-  color: gray;
-  display: flex;
-  justify-content: center;
+.icon_content svg {
+  margin-bottom: 10px; /* add some space between the icon and text */
 }
 
-.grid__container{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-gap: 20px;
-}
-.icon_content{
-    display: flex;
-    gap: 30px;
-    /* border: 2px solid black; */
-    padding: 25px 10px 0 25px ;
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
-}
-.icon__text{
-    /* border: 1px solid black; */
-    width: 150px;
-    font-weight: 600;
+.icon__text {
+  width: auto;
+  font-size: 16px; /* reduce font size for smaller screens */
 }
 
-.courses{
-    padding: 20px 0 30px;
-    color: gray;
+.courses {
+  padding: 10px 0;
+  font-size: 14px; /* reduce font size for smaller screens */
 }

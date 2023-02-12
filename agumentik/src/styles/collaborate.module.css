@@ -1,14 +1,16 @@
 .container {
   width: 100%;
-  border: 2px solid blue;
-  height: auto;
-  margin-top: 150px;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .upper__half {
   width: 100%;
   height: auto;
   border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .main__line1 {
@@ -16,26 +18,32 @@
   display: flex;
   justify-content: center;
   font-weight: 600;
-}
-
-.span__clr {
-  color: #5459e8;
+  margin: 20px 0;
+  text-align: center;
 }
 
 .cards_box {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  flex-wrap: wrap;
   padding: 30px;
 }
 
 .cards_box div {
-  width: auto;
+  width: 150px;
   height: auto;
   border: 1px solid red;
+  margin: 10px;
 }
 
 .cards_box img {
-  width: 150px;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .cards_box div {
+    width: 120px;
+  }
 }
 
 .lower__half {
@@ -48,19 +56,16 @@
   padding: 90px;
   border: 2px solid red;
 }
+
 .h2__tag {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
   font-size: 40px;
   font-weight: 600;
   color: gray;
+  text-align: center;
 }
 
 .p__tag {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  text-align: center;
 }
 
 .main__line2 p {
@@ -69,30 +74,57 @@
 
 .div__box {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
   margin-top: 20px;
-  padding-left:10px;
-  
- 
- 
 }
 
 .div__box div {
-    /* padding: 0 20px; */
-  width: auto;
+  width: 300px;
   height: auto;
+  margin: 10px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
- 
 }
 
-.desc{
-    margin-top: 20px;
+.desc {
+  margin-top: 20px;
+  text-align: center;
 }
 
-.learn__more{
-    margin-top: 20px;
+.learn__more {
+  margin-top: 20px;
+  text-align: center;
 }
 
-hr{
-    width: 50%;
+hr {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .main__line2 {
+    padding: 60px;
+  }
+
+  .h2__tag {
+    font-size: 30px;
+  }
+
+  .div__box div {
+    width: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main__line2 {
+    padding: 30px;
+  }
+
+  .h2__tag {
+    font-size: 20px;
+  }
+
+  .div__box div {
+    width: 100%;
+    margin: 10px 0;
+  }
 }

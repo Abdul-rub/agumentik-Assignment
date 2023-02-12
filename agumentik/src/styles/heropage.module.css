@@ -3,60 +3,116 @@
   height: auto;
   border: 1px solid blue;
   display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
 
-  padding-left: 30px;
-  padding-right: 30px;
+@media screen and (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    padding: 30px;
+  }
 }
 
 .left__div {
-  width: 50%;
+  width: 100%;
   border: 1px solid red;
   height: 100%;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .left__div {
+    width: 50%;
+    margin-bottom: 0;
+  }
 }
 
 .title {
-  margin-top: 60px;
-  font-size: 60px;
+  margin-top: 20px;
+  font-size: 40px;
   border: 1px solid red;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    margin-top: 60px;
+    font-size: 60px;
+  }
 }
 
 .description {
-  padding: 20px;
+  padding: 10px;
   border: 1px solid red;
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    padding: 20px;
+  }
 }
 
 .btns__div {
- padding: 20px;
+  padding: 10px;
   border: 1px solid red;
   display: flex;
+  flex-direction: column;
   gap: 20px;
-  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .btns__div {
+    flex-direction: row;
+    align-items: center;
+  }
 }
 
 .get__startbtn {
-  padding: 15px 50px;
+  padding: 10px 30px;
   border-radius: 10px;
   border: 1px solid #5459E8;
   color: white;
   background-color: #5459E8;
   font-family: Poppins;
 }
-.contain{
+
+@media screen and (min-width: 768px) {
+  .get__startbtn {
+    padding: 15px 50px;
+  }
+}
+
+.contain {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.text__playbtn{
+@media screen and (min-width: 768px) {
+  .contain {
+    gap: 20px;
+  }
+}
+
+.text__playbtn {
   margin-left: auto;
+  font-weight: 600;
+  color: gray;
 }
 
 .circle {
   position: relative;
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   background-color: #FCB913;
   border-radius: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .circle {
+    width: 60px;
+    height: 60px;
+  }
 }
 
 .circle::before {
@@ -64,38 +120,39 @@
   position: absolute;
   top: 48%;
   left: 50%;
-  border-top: 15px solid transparent;
-  border-right: 25px solid white;
-  border-bottom: 15px solid transparent;
+  border-top: 10px solid transparent;
+  border-right: 15px solid white;
+  border-bottom: 10px solid transparent;
   border-radius: 5px 5px 5px;
   transform: translate(-50%, -50%) rotate(59deg);
 }
 
-.text__playbtn{
-  font-weight: 600;
-  color: gray;
+@media screen and (min-width: 768px) {
+  .circle::before {
+    border-top: 15px solid transparent;
+    border-right: 25px solid white;
+    border-bottom: 15px solid transparent;
+  }
 }
 
 .checkbox__div {
   padding: 20px;
-  /* border: 1px solid red; */
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .checkbox__div div{
-  /* border: 1px solid green; */
   display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 50%;
 }
 
 .checkbox__div div p{
   color: gray;
-}
-
-.right__div {
-  width: 50%;
-  /* border: 1px solid red; */
-  height: 100%;
+  margin-left: 10px;
+  font-size: 16px;
 }
 
 .right__div img {

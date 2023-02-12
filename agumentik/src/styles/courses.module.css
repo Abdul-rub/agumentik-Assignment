@@ -1,59 +1,103 @@
-.container{
+.container {
     width: 100%;
     height: auto;
     background-color: #5459E8;
     margin-top: 90px;
-}
-.heading{
+  }
+  
+  .heading {
     width: 50%;
     padding: 60px 80px 0;
-    /* border: 1px solid black;    */
-}
-.title{
+  }
+  
+  .title {
     font-size: 40px;
     color: white;
-}
-
-.desc{
+  }
+  
+  .desc {
     padding: 20px 0;
-    color:white;
-}
-
-.card__div{
+    color: white;
+  }
+  
+  .card__div {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding: 30px 40px 80px;
-}
-.card__div div{
-    width: auto;
-    height: auto;
-    /* border: 1px solid black; */
-    background-color: white;
-}
-
-.card__div div img{
+  }
+  
+  .card__div div {
     width: 350px;
-    height: 200px;
-
-}
-.content{
-    width: 90px;
+    height: auto;
+    margin-bottom: 20px;
+    background-color: white;
+  }
+  
+  .card__div div img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .content {
     padding: 10px 30px 20px;
     display: flex;
     flex-direction: column;
     gap: 30px;
-}
-/* .card_content{
-    line-height: 30px;
-} */
-.course__title{
-   font-weight: 800;
-   /* color: gray; */
-}
-.course__university{
+  }
+  
+  .course__title {
+    font-size: 24px;
+    font-weight: 800;
+  }
+  
+  .course__university {
+    font-size: 16px;
     color: gray;
-}
-.course{
+  }
+  
+  .course {
+    font-size: 16px;
     font-weight: 600;
     color: gray;
-}
+  }
+  
+  @media screen and (max-width: 768px) {
+    .heading {
+      width: 100%;
+      padding: 60px 40px 0;
+    }
+  
+    .title {
+      font-size: 32px;
+    }
+  
+    .desc {
+      padding: 20px 40px;
+    }
+  
+    .card__div {
+      padding: 30px;
+    }
+  
+    .card__div div {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+  
+    .content {
+      padding: 10px 20px 20px;
+    }
+  
+    .course__title {
+      font-size: 20px;
+    }
+  
+    .course__university {
+      font-size: 14px;
+    }
+  
+    .course {
+      font-size: 14px;
+    }
+  }
