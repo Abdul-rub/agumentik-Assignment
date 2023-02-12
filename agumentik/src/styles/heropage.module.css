@@ -1,7 +1,7 @@
 .container {
   width: auto;
   height: auto;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -16,7 +16,7 @@
 
 .left__div {
   width: 100%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   height: 100%;
   margin-bottom: 20px;
 }
@@ -31,7 +31,7 @@
 .title {
   margin-top: 20px;
   font-size: 40px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 @media screen and (min-width: 768px) {
@@ -43,7 +43,7 @@
 
 .description {
   padding: 10px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 @media screen and (min-width: 768px) {
@@ -54,7 +54,7 @@
 
 .btns__div {
   padding: 10px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -137,22 +137,24 @@
 
 .checkbox__div {
   padding: 20px;
+  /* border: 1px solid red; */
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
 }
 
 .checkbox__div div{
+  /* border: 1px solid green; */
   display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-  width: 50%;
 }
 
 .checkbox__div div p{
   color: gray;
-  margin-left: 10px;
-  font-size: 16px;
+}
+
+.right__div {
+  width: 50%;
+  /* border: 1px solid red; */
+  height: 100%;
 }
 
 .right__div img {

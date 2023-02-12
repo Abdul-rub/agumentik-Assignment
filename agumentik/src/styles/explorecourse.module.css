@@ -1,13 +1,13 @@
 .lower__half {
   width: 100%;
   height: auto;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   padding: 20px; /* reduce padding to make it more compact */
 }
 
 .main__line2 {
   padding: 30px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .h2__tag {
@@ -16,8 +16,16 @@
 
 .grid__container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* use auto-fit and minmax to create a responsive grid */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 20px;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+@media (min-width: 768px) {
+  .grid__container {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+  }
 }
 
 .icon_content {
