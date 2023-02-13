@@ -10,7 +10,7 @@ const Courses = () => {
     </div>
     <div className={style.card__div}>
         <div>
-            <img src="https://www.ectstar.eu/wp-content/uploads/2020/07/computational-1600x600.png" alt="image" />
+            <img style={{width:"100%", height:"200px"}} src="https://www.ectstar.eu/wp-content/uploads/2020/07/computational-1600x600.png" alt="image" />
        <div className={style.content}>
         <p className={style.course__title}>Easy Way To Solve Algorithms</p>
         <p className={style.course__university}>Doosan University</p>
@@ -18,7 +18,7 @@ const Courses = () => {
         </div>
         </div>
         <div>
-            <img src="https://www.surrey.ac.uk/sites/default/files/styles/banner_image_1500x470/public/2020-02/quantum-foundations-centre-top-banner-2.jpg?itok=rQV5Tiun" alt="image" />
+            <img style={{width:"100%", height:"200px"}} src="https://www.surrey.ac.uk/sites/default/files/styles/banner_image_1500x470/public/2020-02/quantum-foundations-centre-top-banner-2.jpg?itok=rQV5Tiun" alt="image" />
        <div className={style.content}>
         <p className={style.course__title}>Learn About Physics and the Universe</p>
         <p className={style.course__university}>Michigan University</p>
@@ -26,7 +26,7 @@ const Courses = () => {
         </div>
         </div>
         <div>
-            <img src="https://fscl.co.uk/wp-content/uploads/2022/10/ludaflors-bespoke-design-service.jpeg" alt="image" />
+            <img style={{width:"100%", height:"200px"}} src="https://fscl.co.uk/wp-content/uploads/2022/10/ludaflors-bespoke-design-service.jpeg" alt="image" />
        <div className={style.content}>
         <p className={style.course__title}>How to Branding Your Product</p>
         <p className={style.course__university}>Pennysylvania University</p>

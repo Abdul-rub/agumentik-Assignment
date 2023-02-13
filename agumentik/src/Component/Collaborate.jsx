@@ -16,32 +16,37 @@ const Collaborate = () => {
           </p>
         </div>
         <div className={style.cards_box}>
-          <div>
+          <div className={style.cards_img_box}>
             <img
+              style={{ width: "80%", height: "60px", margin: "auto" }}
               src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/0000/4107/brand.gif?itok=ACv3cY_Y"
               alt=""
             />
           </div>
           <div>
             <img
+              style={{ width: "80%", height: "60px", margin: "auto" }}
               src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/0000/4107/brand.gif?itok=ACv3cY_Y"
               alt=""
             />
           </div>
           <div>
             <img
+              style={{ width: "80%", height: "60px", margin: "auto" }}
               src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/0000/4107/brand.gif?itok=ACv3cY_Y"
               alt=""
             />
           </div>
           <div>
             <img
+              style={{ width: "80%", height: "60px", margin: "auto" }}
               src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/0000/4107/brand.gif?itok=ACv3cY_Y"
               alt=""
             />
           </div>
           <div>
             <img
+              style={{ width: "80%", height: "60px", margin: "auto" }}
               src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/0000/4107/brand.gif?itok=ACv3cY_Y"
               alt=""
             />
@@ -66,15 +71,26 @@ const Collaborate = () => {
         <div className={style.div__box}>
           <div className={style.title}>
             <p>Flexible Time</p>
-            <hr />
-            
+            <hr className={style.first} />
+
             <div className={style.desc}>
-              Learning can be adjusted according to <br />
-              your time,because we also really
-              <br />
-              appreciate you if you are doing other
-              <br />
-              activities.
+              Learning can be adjusted according to your time,because we also
+              really appreciate you if you are doing other activities.
+              <div className={style.learn__more}>
+                Learn More
+                <span>
+                  <BsArrowRight color={"#5459E8"} size={20} />
+                </span>
+              </div>
+            </div>
+          </div>
+          <div className={style.title}>
+           
+              <p>Flexible Time</p>
+              <hr className={style.second} />
+            <div className={style.desc}>
+              Learning can be adjusted according to your time,because we also
+              really appreciate you if you are doing other activities.
               <div className={style.learn__more}>
                 Learn More{" "}
                 <span>
@@ -84,35 +100,12 @@ const Collaborate = () => {
             </div>
           </div>
           <div className={style.title}>
-            <u>
+         
               <p>Flexible Time</p>
-            </u>
+              <hr className={style.third} />
             <div className={style.desc}>
-              Learning can be adjusted according to <br />
-              your time,because we also really
-              <br />
-              appreciate you if you are doing other
-              <br />
-              activities.
-              <div className={style.learn__more}>
-                Learn More{" "}
-                <span>
-                  <BsArrowRight color={"#5459E8"} size={20} />
-                </span>
-              </div>
-            </div>
-          </div>
-          <div className={style.title}>
-            <u>
-              <p>Flexible Time</p>
-            </u>
-            <div className={style.desc}>
-              Learning can be adjusted according to <br />
-              your time,because we also really
-              <br />
-              appreciate you if you are doing other
-              <br />
-              activities.
+              Learning can be adjusted according to your time,because we also
+              really appreciate you if you are doing other activities.
               <div className={style.learn__more}>
                 Learn More{" "}
                 <span>

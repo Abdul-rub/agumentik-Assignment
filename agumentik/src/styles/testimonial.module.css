@@ -26,8 +26,9 @@
 }
 
 .tesimonial__cards{
+    margin-top: 50px;
     display: flex;
-    /* border: 1-px solid red; */
+    /* border: 1px solid red; */
     gap: 15px;
     
     

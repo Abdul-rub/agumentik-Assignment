@@ -3,63 +3,81 @@
     height: auto;
     background-color: #5459E8;
     margin-top: 90px;
+    /* border: 2px solid red; */
+    padding: 3rem 0rem;
   }
   
   .heading {
-    width: 50%;
-    padding: 60px 80px 0;
+    width: 80%;
+    /* border: 2px solid red;/\ */
+    margin: auto;
+    padding: 1rem 0rem;
+    
   }
   
   .title {
     font-size: 40px;
     color: white;
+    /* border: 2px solid red; */
   }
   
   .desc {
-    padding: 20px 0;
+    /* padding: 20px 0; */
     color: white;
+    /* border: 2px solid rgb(255, 44, 44); */
   }
   
   .card__div {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
-    padding: 30px 40px 80px;
+    width: 80%;
+    gap: 15px;
+    margin: auto;
+    /* border: 2px solid black; */
   }
   
   .card__div div {
     width: 350px;
     height: auto;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     background-color: white;
+    /* border: 2px solid rgb(72, 247, 95); */
   }
   
   .card__div div img {
     width: 100%;
     height: auto;
+    /* border: 2px solid rgb(255, 25, 25); */
   }
   
   .content {
-    padding: 10px 30px 20px;
+    /* padding: 10px 30px 20px; */
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 0px;
+    /* border: 2px solid rgb(255, 230, 2); */
   }
   
   .course__title {
     font-size: 24px;
+    padding:1.3rem ;
     font-weight: 800;
+    /* border: 2px solid rgb(0, 247, 255); */
   }
   
   .course__university {
     font-size: 16px;
     color: gray;
+    /* border: 2px solid rgb(212, 0, 255); */
+    padding:1.3rem ;
   }
   
   .course {
     font-size: 16px;
     font-weight: 600;
+    padding:1.3rem ;
     color: gray;
+    /* border: 2px solid rgba(0, 255, 42, 0.863); */
   }
   
   @media screen and (max-width: 768px) {

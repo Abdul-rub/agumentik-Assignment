@@ -1,43 +1,52 @@
 .container {
   width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
+  margin:  auto;
 }
 
 .upper__half {
   width: 100%;
   height: auto;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top:60px;
+  margin-bottom: 60px;
 }
 
 .main__line1 {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   justify-content: center;
   font-weight: 600;
-  margin: 20px 0;
+  margin-top:30px;
+  margin-bottom: 30px;
   text-align: center;
 }
-
+.span__clr{
+  color:#5459E8;
+}
 .cards_box {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 30px;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  /* border: 1px solid red; */
+  padding: 0rem 2rem;
 }
 
 .cards_box div {
-  width: 150px;
+  width: 160px;
   height: auto;
-  border: 1px solid red;
-  margin: 10px;
+  /* border: 5px solid rgb(136, 36, 36); */
+  margin: auto;
+  display: flex;
 }
 
 .cards_box img {
-  max-width: 100%;
+  /* max-width: 100%; */
+  object-fit: cover;
+
 }
 
 @media (max-width: 768px) {
@@ -49,12 +58,12 @@
 .lower__half {
   width: 100%;
   height: auto;
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 
 .main__line2 {
   padding: 90px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .h2__tag {
@@ -70,6 +79,8 @@
 
 .main__line2 p {
   margin-top: 20px;
+  /* border: 2px solid red; */
+
 }
 
 .div__box {
@@ -77,13 +88,17 @@
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 20px;
+  /* border: 2px solid red; */
 }
 
-.div__box div {
+.title {
   width: 300px;
   height: auto;
   margin: 10px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  /* border: 2px solid red; */
+  padding: 10px 20px;
+  border-radius: 10px;
 }
 
 .desc {
@@ -98,7 +113,20 @@
 
 hr {
   width: 50%;
+  
 }
+
+.first{
+ border-color: #5459E8;
+}
+
+.second{
+  border-color: orangered;
+ }
+
+ .third{
+  border-color: greenyellow;
+ }
 
 @media (max-width: 768px) {
   .main__line2 {

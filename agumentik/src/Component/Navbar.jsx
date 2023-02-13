@@ -8,15 +8,15 @@ const nav__links = [
     display: "Home",
   },
   {
-    path: "/teacher",
-    display: "Teacher",
+    path: "/anotherpage",
+    display: "Another Page",
   },
   {
-    path: "/class",
+    path: "/#",
     display: "Classes",
   },
   {
-    path: "/contact",
+    path: "/#",
     display: "Contact us",
   },
 ];
@@ -26,7 +26,7 @@ const Navbar = () => {
     <nav>
      <div className={styles.container}>
       <div className={styles.logo__name}>
-        <img src="https://cdn.logo.com/hotlink-ok/logo-social.png" alt="logo" /><span>COURZEES</span>
+        <img src="https://cdn.logo.com/hotlink-ok/logo-social.png" alt="logo" /><span className={styles.title}>COURZEES</span>
         </div>
      <div className={styles.path__links}>
      <ul className={styles.nav__items}>
