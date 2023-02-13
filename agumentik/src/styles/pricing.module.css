@@ -146,3 +146,8 @@
     font-size: 18px;
   }
 }
+
+.pricing__hover:hover{
+  background-color: #5459E8;
+  color: white;
+}

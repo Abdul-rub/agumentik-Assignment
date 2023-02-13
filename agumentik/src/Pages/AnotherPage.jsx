@@ -11,15 +11,16 @@ const AnotherPage = () => {
   return (
     <>
       <div className={style.container}>
-        <div className={style.back}>
-          <ExploreCourse />
-          <Pricing />
-          <Testimonial />
-        </div>
+
         <div className={style.front}>
           <Navbar />
           <HeroPage />
           <Collaborate />
+        </div>
+        <div className={style.back}>
+          <ExploreCourse />
+          <Pricing />
+          <Testimonial />
         </div>
       </div>
     </>

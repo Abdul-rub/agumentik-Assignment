@@ -10,7 +10,7 @@ export const PricingCard = ({ title, description, price }) => {
       <p className={style.price__txt}>
         {price} <span className={style.price__month}>/month</span>
       </p>
-      <button>Select Plan</button>
+      <button className={style.pricing__hover}>Select Plan</button>
       <div className={style.offers__avail}>
         <p>
           <span>
