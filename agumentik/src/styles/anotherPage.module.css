@@ -1,0 +1,25 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    perspective: 1000px; 
+  }
+  
+  .back,
+  .front {
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: auto;
+    z-index: 1;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  
+  .front {
+    left: 0;
+  }
+  
+  .back {
+    right: 0;
+  }
